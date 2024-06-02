@@ -2,7 +2,7 @@
         <img src="HPC LOGO.png" style="width: 500px; height:500px; margin-right: 20px;" />
 </div>
 
-# HPC preveem temperatura crítica de supercondutores
+# HPC reconstrói imagens com Algoritmos Genéticos
 **Grupo:** HPC: High Phofocas & Condiments
 <br>
 **Integrantes:** Alice Barbarino Santos, Bruno Ferreira Brischi e Maria Eduarda de Oliveira Crist
@@ -10,7 +10,7 @@
 **Instituição:** Ilum - Escola de ciência
 <br>
 ## Apresentação
-Este GitHub compõe um dos dois trabalhos finais de _Redes Neurais e Algoritmos Genéticos_, disciplina ministrada por Daniel Roberto Cassar na [Ilum - Escola de Ciências](https://ilum.cnpem.br). Dessa forma, esse projeto busca prever a temperatura crítica de supercondutores utilizando o dataset _Superconductivity Data_, feito por Kam Hamidieh. Então, para realizar as previsões, nos propomos a usar uma rede neural do tipo _perceptron_ multicamadas (MLP) e observar se é possível predizer de forma razoável a temperatura crítica de supercondutor
+Este GitHub compõe um dos dois trabalhos finais de _Redes Neurais e Algoritmos Genéticos_, disciplina ministrada por Daniel Roberto Cassar na [Ilum - Escola de Ciências](https://ilum.cnpem.br). Dessa forma, esse projeto busca reconstruir imagens usando uma implementação de Algoritmos Genéticos com python. 
 
 ## Estrutura do Repositório
 - _MLP supercondutora.ipynb_: Jupyter Notebook que apresenta a rede neural, bem como todo o seu processo de treinamento, teste e tratamento de dados;
