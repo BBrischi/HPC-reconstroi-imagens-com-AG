@@ -13,8 +13,12 @@
 Este GitHub compõe um dos dois trabalhos finais de _Redes Neurais e Algoritmos Genéticos_, disciplina ministrada por Daniel Roberto Cassar na [Ilum - Escola de Ciências](https://ilum.cnpem.br). Dessa forma, esse projeto busca reconstruir imagens usando uma implementação de Algoritmos Genéticos com python. 
 
 ## Estrutura do Repositório
-- _MLP supercondutora.ipynb_: Jupyter Notebook que apresenta a rede neural, bem como todo o seu processo de treinamento, teste e tratamento de dados;
-- _train.csv_: csv que possui o dataset usado para o treinamento da rede neural.
+- `GA reconstruidor.ipynb`: Jupyter Notebook que apresenta o algoritmo genético e sua implementação.
+- `image_test.py`: classe da referência [1] para criar e manipular imagens.
+- `elitism_callback.py`: classe da referência [1] para modificar a função `eaSimple` do DEAP, implementando elitismo e _callback_.
+- `Mona_Lisa_head.png`: imagem que será usada como teste do algoritmo genético.
+-  `HPC_logo`: Logo da equipe para exibi-lá no github e no notebook.
+  
 
 ## Motivação
 O fenômeno da supercondutividade foi descoberta pela primeira vez em 1911, pelo físico holândes Heike Kamerlingh Onnes, que ganhou um Nobel de Física para sua descoberta, em 1913. Um material se caracteriza como supercondutor se, abaixo de uma determinada temperatura, chamada de Temperatura crítica ($T_c$), ele não apresentar resistência elétrica e gerar campos magnéticos. Devido à essas propriedades únicas, os supercondutores vêm sendo extensivamente pesquisados desde então pelas suas possibilidades de aplicação em diversas áreas [[1]](https://home.cern/science/engineering/superconductivity) [[2]](https://www.inmesol.com/blog/superconductivity-applied-to-everyday-life/#:~:text=Superconductivity%20is%20the%20ability%20of,are%20some%20applications%20of%20superconductivity). Ainda assim, não possuímos uma teoria que realmente explique o porquê de os supercondutores apresentarem essas propriedades, o que dificulta a previsão de quais materiais podem ser supercondutores e qual a temperatura crítica desses materiais. Por isso, um trabalho que se proponha a predizer essas temperaturas críticas desses materiais pode ser muito útil para dar _insights_ sobre a teoria por trás dos supercondutores.
