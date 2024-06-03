@@ -38,7 +38,7 @@ As principais bibliotecas utilizadas nesse trabalho são:
 - `random` para gerar valores aleatórios.
 
 ## Como utilizar
-Nesse repositório, o usuário tem acesso à um notebook executável, que pode ser baixado e executado pelo usuário, com o intuito de que ele entenda passo a passo da construção do algoritmo genético, além de acompanhar sua. Por já apresentar a rede neural treinada, o usuário pode usufruir desse notebook para fazer previsões por si só, desfrutando do modelo apresentado.
+Nesse repositório, o usuário tem acesso à um notebook executável, que pode ser baixado e executado pelo usuário, com o intuito de que ele entenda passo a passo da construção do algoritmo genético, além de acompanhar sua evolução. Por já apresentar a rede neural treinada, o usuário pode usufruir desse notebook para fazer previsões por si só, desfrutando do modelo apresentado.
 
 Obs.: o notebook foi executado em um Lenovo ThinkPad E14 i5, demorando algumas horas para sua execução completa; devido ao fato de ser um código pesado, recomendamos seu uso em uma máquina com um bom processador.
 
