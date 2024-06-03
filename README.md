@@ -18,6 +18,7 @@ Este GitHub compõe um dos dois trabalhos finais de _Redes Neurais e Algoritmos 
 - _elitism_callback.py_: classe da referência [1] para modificar a função `eaSimple` da `deap`, implementando elitismo e _callback_.
 - _Mona_Lisa_head.png_: imagem que será usada como teste do algoritmo genético.
 - _HPC_logo_: Logo da equipe para exibi-lá no github e no notebook.
+- _images_: diretório que contém os resultados do algoritmo a cada 100 gerações.
   
 
 ## Motivação
@@ -31,14 +32,14 @@ As principais bibliotecas utilizadas nesse trabalho são:
 - `PIL` para criar imagens e "desenhar" polígonos nela.
 - `skimage` para computar o SSIM (uma das funções de fitness) e processar imagens.
 - `cv2` para usar _color maps_ RGB na imagem criada.
--`matplotlib` para _plotar_ as imagens e gráficos de resultado.
--`deap` para construir e implementar todo o algoritmo genético.
--`IPython` para visualização de imagem em formato PIL.
--`random` para gerar valores aleatórios.
+- `matplotlib` para _plotar_ as imagens e gráficos de resultado.
+- `deap` para construir e implementar todo o algoritmo genético.
+- `IPython` para visualização de imagem em formato PIL.
+- `random` para gerar valores aleatórios.
 
 ## Como utilizar
-Nesse repositório, o usuário tem acesso à um notebook executável, que pode ser baixado e executado pelo usuário, com o intuito de que ele entenda passo a passo da construção e treino da rede neural, além de apresentar dados sobre sua performance. Por já apresentar a rede neural treinada, o usuário pode usufruir desse notebook para fazer previsões por si só, desfrutando do modelo apresentado.
-Obs.: o notebook foi executado em um Lenovo ThinkPad E14 i5, demorando cerca de 8 horas para sua execução completa; devido ao fato de ser um código pesado, recomendamos seu uso em uma máquina com um bom processador.
+Nesse repositório, o usuário tem acesso à um notebook executável, que pode ser baixado e executado pelo usuário, com o intuito de que ele entenda passo a passo da construção do algoritmo genético, além de acompanhar sua. Por já apresentar a rede neural treinada, o usuário pode usufruir desse notebook para fazer previsões por si só, desfrutando do modelo apresentado.
+Obs.: o notebook foi executado em um Lenovo ThinkPad E14 i5, demorando algumas horas para sua execução completa; devido ao fato de ser um código pesado, recomendamos seu uso em uma máquina com um bom processador.
 
 ## Referências
 [1] Wirsansky, E. (2020). Hands-on genetic algorithms with Python: applying genetic algorithms to solve real-world deep learning and artificial intelligence problems. Packt Publishing Ltd.
