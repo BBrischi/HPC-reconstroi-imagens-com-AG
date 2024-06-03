@@ -13,28 +13,35 @@
 Este GitHub compõe um dos dois trabalhos finais de _Redes Neurais e Algoritmos Genéticos_, disciplina ministrada por Daniel Roberto Cassar na [Ilum - Escola de Ciências](https://ilum.cnpem.br). Dessa forma, esse projeto busca reconstruir imagens usando uma implementação de Algoritmos Genéticos com python. 
 
 ## Estrutura do Repositório
-- `GA reconstruidor.ipynb`: Jupyter Notebook que apresenta o algoritmo genético e sua implementação.
-- `image_test.py`: classe da referência [1] para criar e manipular imagens.
-- `elitism_callback.py`: classe da referência [1] para modificar a função `eaSimple` do DEAP, implementando elitismo e _callback_.
-- `Mona_Lisa_head.png`: imagem que será usada como teste do algoritmo genético.
--  `HPC_logo`: Logo da equipe para exibi-lá no github e no notebook.
+- _GA reconstruidor.ipynb_: Jupyter Notebook que apresenta o algoritmo genético e sua implementação.
+- _image_test.py_: classe da referência [1] para criar e manipular imagens.
+- _elitism_callback.py_: classe da referência [1] para modificar a função `eaSimple` da `deap`, implementando elitismo e _callback_.
+- _Mona_Lisa_head.png_: imagem que será usada como teste do algoritmo genético.
+- _HPC_logo_: Logo da equipe para exibi-lá no github e no notebook.
   
 
 ## Motivação
-O fenômeno da supercondutividade foi descoberta pela primeira vez em 1911, pelo físico holândes Heike Kamerlingh Onnes, que ganhou um Nobel de Física para sua descoberta, em 1913. Um material se caracteriza como supercondutor se, abaixo de uma determinada temperatura, chamada de Temperatura crítica ($T_c$), ele não apresentar resistência elétrica e gerar campos magnéticos. Devido à essas propriedades únicas, os supercondutores vêm sendo extensivamente pesquisados desde então pelas suas possibilidades de aplicação em diversas áreas [[1]](https://home.cern/science/engineering/superconductivity) [[2]](https://www.inmesol.com/blog/superconductivity-applied-to-everyday-life/#:~:text=Superconductivity%20is%20the%20ability%20of,are%20some%20applications%20of%20superconductivity). Ainda assim, não possuímos uma teoria que realmente explique o porquê de os supercondutores apresentarem essas propriedades, o que dificulta a previsão de quais materiais podem ser supercondutores e qual a temperatura crítica desses materiais. Por isso, um trabalho que se proponha a predizer essas temperaturas críticas desses materiais pode ser muito útil para dar _insights_ sobre a teoria por trás dos supercondutores.
+Algoritmos genéticos são ferramentas poderosas inspirados na biologia e que auxiliam na resolução de problemas de otimização, sendo muito populares pela sua capacidade de evoluirem e conseguirem soluções melhores com o decorrer do tempo, sendo uma alternativa aos métodos de otimização por busca em grade e busca aleatória. Assim, a reconstrução de imagens é um método importante em processamento de imagem, já que pode ser aplicada em recuperar imagens corrompidas e em redução de ruído [2]. Então, propomos com esse projeto fazer uma implementação do algoritmo proposto pelos autores da referência [1], mas tentando realizar mudanças para melhorar a convergência da solução e aperfeiçoá-lo.
 
 ## Requisitos
-É necessário o python instalado, além do Jupyter habilitado com as bibliotecas: `pandas`, `torch`, `optuna`, `sklearn`, `lightning`, `matplotlib`, `numpy`, `scipy` e `random`, que são usadas em momentos variados do código.
+É necessário o python instalado, além do Jupyter habilitado com as bibliotecas: `PIL`, `skimage`, `deap`, `IPython`, `cv2` (OpenCV), `matplotlib`, `numpy` e `random`, que são usadas em momentos variados do código.
 
 ## Bibliotecas
 As principais bibliotecas utilizadas nesse trabalho são: 
-- `pandas` para tratamento de dados, `sklearn` para normalização e _split_ dos dados;
-- `torch` e `lighting` para a construção da rede neural;
-- `optuna` para otimização dos hiperparâmetros da MLP;
-Além do uso ocasional de `matplotlib` para representação gráfica e uso adicional das bibliotecas `numpy`, `scipy` e `random` como suporte em alguma tarefa específica.
+- `PIL` para criar imagens e "desenhar" polígonos nela.
+- `skimage` para computar o SSIM (uma das funções de fitness) e processar imagens.
+- `cv2` para usar _color maps_ RGB na imagem criada.
+-`matplotlib` para _plotar_ as imagens e gráficos de resultado.
+-`deap` para construir e implementar todo o algoritmo genético.
+-`IPython` para visualização de imagem em formato PIL.
+-`random` para gerar valores aleatórios.
 
 ## Como utilizar
 Nesse repositório, o usuário tem acesso à um notebook executável, que pode ser baixado e executado pelo usuário, com o intuito de que ele entenda passo a passo da construção e treino da rede neural, além de apresentar dados sobre sua performance. Por já apresentar a rede neural treinada, o usuário pode usufruir desse notebook para fazer previsões por si só, desfrutando do modelo apresentado.
 Obs.: o notebook foi executado em um Lenovo ThinkPad E14 i5, demorando cerca de 8 horas para sua execução completa; devido ao fato de ser um código pesado, recomendamos seu uso em uma máquina com um bom processador.
 
 ## Referências
+[1] Wirsansky, E. (2020). Hands-on genetic algorithms with Python: applying genetic algorithms to solve real-world deep learning and artificial intelligence problems. Packt Publishing Ltd.
+[2] Mirjalili, S., Song Dong, J., Sadiq, A. S., & Faris, H. (2020). Genetic algorithm: Theory, literature review, and application in image reconstruction. Nature-inspired optimizers: Theories, literature reviews and applications, 69-85.
+[3] 
+
