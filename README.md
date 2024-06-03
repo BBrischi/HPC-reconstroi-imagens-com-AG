@@ -22,7 +22,7 @@ Este GitHub compõe um dos dois trabalhos finais de _Redes Neurais e Algoritmos 
   
 
 ## Motivação
-Algoritmos genéticos são ferramentas poderosas inspirados na biologia e que auxiliam na resolução de problemas de otimização, sendo muito populares pela sua capacidade de evoluirem e conseguirem soluções melhores com o decorrer do tempo, sendo uma alternativa aos métodos de otimização por busca em grade e busca aleatória [3]. Assim, a reconstrução de imagens é um método importante em processamento de imagem, já que pode ser aplicada em recuperar imagens corrompidas e em redução de ruído [2]. Então, propomos com esse projeto fazer uma implementação do algoritmo proposto pelos autores da referência [1], mas tentando realizar mudanças para melhorar a convergência da solução e aperfeiçoá-lo.
+Algoritmos genéticos são ferramentas poderosas inspirados na biologia e que auxiliam na resolução de problemas de otimização, sendo muito populares pela sua capacidade de evoluirem e conseguirem soluções melhores com o decorrer do tempo, sendo uma alternativa aos métodos de otimização por busca em grade e busca aleatória [3][4]. Assim, a reconstrução de imagens é um método importante em processamento de imagem, já que pode ser aplicada em recuperar imagens corrompidas e em redução de ruído [2]. Então, propomos com esse projeto fazer uma implementação do algoritmo proposto pelos autores da referência [1], mas tentando realizar mudanças para melhorar a convergência da solução e aperfeiçoá-lo.
 
 ## Requisitos
 É necessário o python instalado, além do Jupyter habilitado com as bibliotecas: `PIL`, `skimage`, `deap`, `IPython`, `cv2` (OpenCV), `matplotlib`, `numpy` e `random`, que são usadas em momentos variados do código.
@@ -45,5 +45,8 @@ Obs.: o notebook foi executado em um Lenovo ThinkPad E14 i5, demorando algumas h
 [1] Wirsansky, E. (2020). Hands-on genetic algorithms with Python: applying genetic algorithms to solve real-world deep learning and artificial intelligence problems. Packt Publishing Ltd.
 
 [2] Mirjalili, S., Song Dong, J., Sadiq, A. S., & Faris, H. (2020). Genetic algorithm: Theory, literature review, and application in image reconstruction. Nature-inspired optimizers: Theories, literature reviews and applications, 69-85.
-[3] 
+
+[3] Notebok 1.3 e 1.5 da disciplina de Algoritmos Genéticos, de autoria do professor.
+
+[4] Notebook 2.3 da disciplina de Algoritmos Genéticos, de autoria do professor.
 
