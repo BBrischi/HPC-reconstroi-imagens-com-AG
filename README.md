@@ -21,6 +21,7 @@ Este GitHub compõe um dos dois trabalhos finais de _Redes Neurais e Algoritmos 
 - _Mona_Lisa_head.png_: imagem que será usada como teste do algoritmo genético.
 - _HPC_logo_: Logo da equipe para exibi-lá no github e no notebook.
 - _images_: diretório que contém os resultados do algoritmo a cada 100 gerações.
+- _comparativo_livro.png_: captura de tela da referência [1] para ser exibida no notebook.
   
 
 ## Motivação
