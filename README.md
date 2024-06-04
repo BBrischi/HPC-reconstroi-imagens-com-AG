@@ -14,8 +14,10 @@ Este GitHub compõe um dos dois trabalhos finais de _Redes Neurais e Algoritmos 
 
 ## Estrutura do Repositório
 - _GA reconstruidor.ipynb_: Jupyter Notebook que apresenta o algoritmo genético e sua implementação.
+- _resultados/_: diretório que possui todas as imagens que foram obtidas pelo callback durante a execução do algoritmo.
 - _image_test.py_: classe da referência [1] para criar e manipular imagens.
 - _elitism_callback.py_: classe da referência [1] para modificar a função `eaSimple` da `deap`, implementando elitismo e _callback_.
+- _callback.py_: classe adaptada da `elitism_callback.py`, removendo o sistema de elitismo e deixando apenas o _callback__.
 - _Mona_Lisa_head.png_: imagem que será usada como teste do algoritmo genético.
 - _HPC_logo_: Logo da equipe para exibi-lá no github e no notebook.
 - _images_: diretório que contém os resultados do algoritmo a cada 100 gerações.
