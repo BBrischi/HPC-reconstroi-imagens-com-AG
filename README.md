@@ -36,6 +36,8 @@ As principais bibliotecas utilizadas nesse trabalho são:
 - `deap` para construir e implementar todo o algoritmo genético.
 - `IPython` para visualização de imagem em formato PIL.
 - `random` para gerar valores aleatórios.
+- `os` para criar diretórios e salvar as imagens do resultado.
+- `seaborn` para definir um aspecto pontual do plot do resultado.
 
 ## Como utilizar
 Nesse repositório, o usuário tem acesso à um notebook executável, que pode ser baixado e executado pelo usuário, com o intuito de que ele entenda passo a passo da construção do algoritmo genético, além de acompanhar sua evolução. Por já apresentar a rede neural treinada, o usuário pode usufruir desse notebook para fazer previsões por si só, desfrutando do modelo apresentado.
